@@ -27,14 +27,21 @@ baseurl: /x
 social:
   - icon:	twitter
     url:	https://twitter.com/elihorne
-    desc: Follow me on twitter
+    desc: Follow me on Twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
+  - icon: instagram
+    url: http://instagram.com/elihorne
+    desc: Follow me on Instagram
+    share_url:
+    share_title:
+    share_link:
+
   - icon:	github
     url:	https://github.com/elihorne
-    desc:	Fork me on github
+    desc:	Fork me on Github
     share_url:
     share_title:
     share_link:

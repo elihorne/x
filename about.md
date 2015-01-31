@@ -4,14 +4,11 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+I'm a product designer and traveler based in lovely Williamsburg, NY. I'm currently traveling in SE Asia.
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+In previous lives, I've worked as a designer and developer at Playboy, Food Network and HGTV. I now work on productivity tools at Google.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This site runs on a hodge podge of technology including [Digital Ocean](https://digitalocean.com), [Jekyll](http://jekyllb.com) and my own [modified version](https://github.com/elihorne/x/) of [Mediator](https://github.com/dirkfabisch/mediator).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm fascinated by the intersection of culture and technology. How people create art, get work done, and navigate their lives. This journal aims to document my thoughts and discoveries.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
