@@ -1,10 +1,53 @@
 <!-- footer start -->
 
-<footer class="site-footer">
-	<a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> RSS</span></a> &bull; <a class="follow" href="http://twitter.com/elihorne"><span class="fa fa-twitter"></span> Follow me on Twitter</a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}</section>
+<div class="newsletter-signup">
+      <h2>Subscribe</h2>
+      <p>Personal updates delivered to your inbox.</p>
+      <form>
+        <input placeholder="Your email address" type="email"/>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-</footer>
+    <footer class="site-footer">
+      <div class="inner">
+        <a class="brand" href="{{ site.baseurl }}">{{ site.title }}</a>
+        <section class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} &bull; <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip">RSS</span></a></section>
+      </div>
+
+      <div class="group">
+        <h5>Sections</h5>
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/travel">Travel</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="group">
+        <h5>Behind the scenes</h5>
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/about">About me</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="group">
+        <h5>Follow</h5>
+        <ul>
+          <li>
+            <a href="http://twitter.com/elihorne">Twitter</a>
+          </li>
+          <li>
+            <a href="http://instagram.com/elihorne">Instagram</a>
+          </li>
+          <li>
+            <a href="http://github.com/elihorne">GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+    </footer>
 
 <!-- footer end -->
