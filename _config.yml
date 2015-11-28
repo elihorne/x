@@ -1,7 +1,7 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-destination: /var/www/html/x
+destination: /var/www/html
 
 # Site settings
 title: Eli Horne
@@ -12,7 +12,7 @@ email: elihorne@gmail.com
 #blog logo
 logo: /assets/images/author.png
 # blog cover
-cover: /assets/images/nyc-cover.jpg 
+cover: /assets/images/nyc-cover.jpg
 
 name: Eli Horne
 author: Eli Horne
@@ -20,8 +20,8 @@ author_image: /assets/images/author.png
 
 paginate:	5
 
-url: http://elihorne.com/
-baseurl: /x
+url: http://elihorne.com
+baseurl: ""
 
 # social icons and sharing options
 social:
