@@ -41,33 +41,21 @@
         <br>
         {% endif %}
         <section class="post-content">
-          <div class="post-reading">
-            <span class="post-reading-time"></span> read
-          </div>
           <a name="topofpage"></a>
           {{content}}
         </section>
-        <footer class="post-footer">
-          <section class="share">
-            {% for social in site.social %}
-
-                <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}}{{ social.share_link }}{{site.baseurl}}{{page.id}}"
-                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
-                </a>
-
-            {% endfor %}
-          </section>
-        </footer>
-        <div class="bottom-teaser cf">
-          <!-- <div class="isLeft">
-            <h5 class="index-headline featured"><span>Metadata</span></h5>
-          </div> -->
-          {{/post}}
-        </div>
       </article>
     </main>
-    {% include footer.html %}
+    <div class="bottom-closer">
+			<div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.baseurl }}{{ site.cover }})"{% endif %}>
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+				<a href="{{site.url}}" class="btn">Back to Overview</a>
+      </div>
+    </div>
     {% include javascripts.html %}
   </body>
 </html>

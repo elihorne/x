@@ -170,6 +170,49 @@ body
       &:hover
         color: #333
 
+.content.journal-listing
+  margin-top: 50px
+  max-width: none
+
+.journal-listing .post-header
+  height: 500px
+  background-size: cover
+  background-position: center top
+  position: relative
+
+  .post-url
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 2
+
+  &:after
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    z-index: 1
+    bottom: 0
+    background: rgba(0,0,0,0.25)
+
+  .post-meta
+    position: absolute
+    bottom: 50px
+    left: 50px
+    z-index: 100
+    width: 80%
+    color: #fff
+
+  .post-title
+    color: #fff
+    display: block
+
+    a
+      color: #fff
+
 .content
   width: 100%
   max-width: 640px
@@ -178,8 +221,6 @@ body
   @include respond-to(800)
     padding: 0 $rs*2
   article
-    padding: 40px 0
-    border-bottom: 1px solid #f2f2f0
     &:last-child
       border-bottom: 0px
     .post-title
@@ -187,7 +228,7 @@ body
       font-weight: 700
       font-style: normal
       display: block
-      font-size: 28px
+      font-size: 36px
       line-height: 1.1
       margin: 0 0
       a
@@ -259,6 +300,12 @@ body
   color: rgba(255,255,255,0.9)
   text-shadow: 0px 1px 4px rgba(0,0,0,0.25), 0px 0px 1px rgba(0,0,0,0.5)
 
+.site-footer.wrapper
+  border-top: 1px solid #eee
+  margin: 50px auto
+  padding: $rs*3 0
+  width: 100%
+
 .site-footer
   margin: 0 auto
   padding: $rs*3
@@ -273,6 +320,13 @@ body
     text-decoration: none
     &:hover
       color: #333
+
+  .follow
+    display: inline-block
+    margin: 0 20px
+
+  .inner
+    margin: 50px 0 10px
   h5
     font-size: 12px
     margin: 0
@@ -692,3 +746,100 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+
+.main-header
+  clear: both
+  font-size: 13px
+  padding: 10px 0
+  background: rgba(255,255,255,0.75)
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: 100
+
+  .my-name
+    font-weight: bold
+    float: left
+    color: #000
+    padding: 2px 10px
+    text-decoration: none
+    text-transform: uppercase
+
+
+  .main-menu
+    float: right
+
+    a
+      color: #111
+      text-decoration: none
+      text-transform: uppercase
+      display: inline-block
+      padding: 2px 10px
+      margin: 0 2px
+
+.description
+  display: block
+  margin: 150px 0
+  width: 90%
+  clear: both
+  font-size: 32px
+  font-weight: bold
+
+
+.section-label
+  text-transform: uppercase
+  display: inline-block
+  color: #999
+  margin-bottom: 20px
+  font-size: 14px
+
+
+
+.wrapper
+  max-width: 1024px
+  padding: 0 5px
+  margin: 0 auto
+
+.work-experience
+  border-top: 1px solid #eee
+  padding: 50px 0
+
+.logos
+  overflow: hidden
+
+  .company
+    display: inline-block
+    width: calc(25% - 8px)
+    height: 180px
+    background-color: #f7f7f7
+    margin: 3px
+    text-align: center
+    position: relative
+
+    &:first-child
+      margin-left: 0
+
+    &:last-child
+      margin-right: 0
+
+    .time
+      position: absolute
+      text-transform: uppercase
+      top: 5px
+      left: 5px
+      background: #fff
+      font-size: 10px
+      padding: 4px 10px
+      font-weight: bold
+
+    img
+      max-height: 60px
+      max-width: 100px
+      width: 70%
+      opacity: 0.5
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)

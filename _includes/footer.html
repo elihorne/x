@@ -1,53 +1,25 @@
 <!-- footer start -->
+<footer class="site-footer wrapper">
+	<a class="follow twitter" href="http://twitter.com/elihorne"><span class="fa fa-twitter"></span> Twitter</a>
+	<a class="follow dribbble" href="http://dribbble.com/elihorne"><span class="fa fa-dribbble"></span> Dribbble</a>
+	<a class="follow github" href="http://github.com/elihorne"><span class="fa fa-github"></span> Github</a>
+	<a class="follow linkedin" href="https://www.linkedin.com/in/elihorne"><span class="fa fa-linkedin"></span> LinkedIn</a>
+  <div class="inner">
+  	<section class="copyright">&copy; {{ site.time | date: '%Y' }} <a href="mailto:{{ site.email}}">{{ site.name }}</a> - Product Designer</section>
+  </div>
+</footer>
 
-<div class="newsletter-signup">
-      <h2>Subscribe</h2>
-      <p>Personal updates delivered to your inbox.</p>
-      <form>
-        <input placeholder="Your email address" type="email"/>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-    <footer class="site-footer">
-      <div class="inner">
-        <a class="brand" href="{{ site.baseurl }}">{{ site.title }}</a>
-        <section class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} &bull; <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip">RSS</span></a></section>
-      </div>
+<script type="text/javascript" src="//s.skimresources.com/js/87472X1540282.skimlinks.js"></script>
 
-      <div class="group">
-        <h5>Sections</h5>
-        <ul>
-          <li>
-            <a href="{{ site.baseurl }}/travel">Travel</a>
-          </li>
-        </ul>
-      </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-452488-2', 'auto');
+  ga('send', 'pageview');
 
-      <div class="group">
-        <h5>Behind the scenes</h5>
-        <ul>
-          <li>
-            <a href="{{ site.baseurl }}/about">About me</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="group">
-        <h5>Follow</h5>
-        <ul>
-          <li>
-            <a href="http://twitter.com/elihorne">Twitter</a>
-          </li>
-          <li>
-            <a href="http://instagram.com/elihorne">Instagram</a>
-          </li>
-          <li>
-            <a href="http://github.com/elihorne">GitHub</a>
-          </li>
-        </ul>
-      </div>
-
-    </footer>
+</script>
 
 <!-- footer end -->
