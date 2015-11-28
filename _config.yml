@@ -2,6 +2,11 @@
 markdown: redcarpet
 highlighter: pygments
 destination: /var/www/html/x
+sass:
+  sass_dir: _sass
+
+gems: 
+  - jekyll-paginate
 
 # Site settings
 title: Eli Horne
@@ -20,8 +25,8 @@ author_image: /assets/images/author.png
 
 paginate:	5
 
-url: http://elihorne.com/
-baseurl: /x
+url: http://elihorne.com
+baseurl: ''
 
 # social icons and sharing options
 social:
