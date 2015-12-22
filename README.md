@@ -20,7 +20,7 @@ Setup
 
 `[sudo] gem install redcarpet`
 
-`sudo mkdir /var/www/html/x && chmod 777 -R /var/www/html/x`
+`sudo mkdir /var/www/html/x && chmod -R 777 /var/www/html/x`
 
 `jekyll serve`
 
