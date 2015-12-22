@@ -13,10 +13,15 @@ Posts and photos are uploaded to Dropbox and then published by a set of scripts 
 Setup
 -------
 `git clone git@github.com:elihorne/x.git x`
+
 `[sudo] gem install jekyll`
+
 `[sudo] gem install jekyll-paginate`
+
 `[sudo] gem install redcarpet`
-`sudo mkdir /var/www/html/x && chmod 777 -R /var/www/html/x`
+
+`sudo mkdir /var/www/html/x && chmod -R 777 /var/www/html/x`
+
 `jekyll serve`
 
 Local server will be at 127.0.0.1:4000
