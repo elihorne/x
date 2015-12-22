@@ -303,12 +303,15 @@ body
 .site-footer.wrapper
   border-top: 1px solid #eee
   margin: 50px auto
-  padding: $rs*3 0
-  width: 100%
+  padding: 20px 25px
+
+  @include respond-to(600)
+    .social .text
+      display: none
 
 .site-footer
   margin: 0 auto
-  padding: $rs*3
+
   max-width: 640px
   font-size: $rs/4*3
   color: #999
@@ -321,9 +324,16 @@ body
     &:hover
       color: #333
 
+  .copy
+    float: left
+
+  .social
+    float: right
+    text-align: right
+
   .follow
     display: inline-block
-    margin: 0 20px
+    margin: 0 12px
 
   .inner
     margin: 50px 0 10px
@@ -353,7 +363,7 @@ body
   .article-image
     position: absolute
     background-color: #000
-    top: 0
+    top: 45px
     left: 0
     right: 0
     bottom: 0
@@ -461,7 +471,6 @@ body
       text-overflow: ellipsis
   .post-content
     width: 100%
-    font-family: $font-serif
     color: #333
     h1, h2, h3
       font-family: $font-sans
@@ -485,7 +494,7 @@ body
     p
       font-weight: 400
       font-style: normal
-      font-size: 22px
+      font-size: 15px
       line-height: 30px
       margin: 0
       padding-bottom: 30px
@@ -750,14 +759,10 @@ pre
 
 .main-header
   clear: both
-  font-size: 13px
+  font-size: 14px
   padding: 10px 0
-  background: rgba(255,255,255,0.75)
-  position: fixed
-  top: 0
-  left: 0
-  right: 0
-  z-index: 100
+  background: rgba(255,255,255,0.5)
+
 
   .my-name
     font-weight: bold
@@ -799,7 +804,7 @@ pre
 
 .wrapper
   max-width: 1024px
-  padding: 0 5px
+  padding: 0 20px
   margin: 0 auto
 
 .work-experience
