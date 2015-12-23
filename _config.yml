@@ -5,11 +5,11 @@ destination: /var/www/html/x
 sass:
   sass_dir: _sass
 
-gems: 
+gems:
   - jekyll-paginate
 
 # Site settings
-title: Eli Horne
+title: Eli Horne - Product Designer
 description: > # this means to ignore newlines until "email:"
   Notes on travel and technology.
 
