@@ -1,7 +1,7 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-destination: /var/www/html/x
+destination: /var/www/html
 sass:
   sass_dir: _sass
 
